@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./img/ming-lv-t0JcNLalA7k-unsplash.jpg');
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 4rem;
+}
+.countdown-container{
+    display: flex;
+
+}
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+span{
+    padding :0  2rem;
+}
